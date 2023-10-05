@@ -1,6 +1,8 @@
 body{
     background-image: url(back.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
     margin: 3rem 2rem;
 }
 .box{
@@ -11,11 +13,11 @@ body{
     flex-wrap: wrap;
 }
 .container{
-    background-color: rgba(255, 192, 203, 0.879);
+    background-color: rgba(23, 23, 23, 0.747);
     padding: 3rem;
     border-radius: 10px;
     text-align: center;
-    border: 10px dashed white;
+    border: 10px dashed rgb(255, 255, 255);
 }
 .app-title{
     font-size: 3rem;
@@ -96,7 +98,7 @@ justify-content: space-between;
 input[type="text"] {
 width: 100%;
 padding: 10px;
-color: rgb(178, 102, 102);
+color: rgb(0, 0, 0);
 border-radius: 10px;
 border: 3px solid #ffffff;
 }
